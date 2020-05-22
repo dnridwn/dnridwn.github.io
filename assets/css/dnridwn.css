@@ -1,0 +1,41 @@
+#background-image {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: grayscale(50);
+}
+
+#top {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text-black {
+    color: black;
+}
+
+#projects {
+    top: 0;
+    bottom: 0;
+    right: -100vw;
+    left: 100vw;
+    z-index: 99999999999;
+    transition: left ease-in 1s;
+}
+
+#btn-projects {
+    bottom: 40px;
+    right: 40px;
+}
+
+#title {
+    font-family: "Manjari Bold";
+}
+
+* {
+    font-family: "Manjari Regular";
+}

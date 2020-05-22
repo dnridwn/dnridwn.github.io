@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#splash-screen {
+    z-index: 999999;
+}
+
+#loader {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-right-color: #393E46;
+    border-radius: 50%;
+    animation: 1s spin infinite;
+    -webkit-animation: 1s spin infinite;
+    -moz-animation: 1s spin infinite;
+    -o-animation: 1s spin infinite;
+}
+
+.bg-dark-2 {
+    background-color: #393E46;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+.bg-black-transparent {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#bg-image {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url("../img/bg-corona.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.text-black {
+    color: black;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin {
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}

@@ -33,9 +33,13 @@
 }
 
 #title {
-    font-family: "Manjari Bold";
+    font-family: 'Manjari Bold', sans-serif;
 }
 
 * {
-    font-family: "Manjari Regular";
+    font-family: 'Manjari', sans-serif;
+}
+
+.vh-100 {
+    height: 100vh;
 }

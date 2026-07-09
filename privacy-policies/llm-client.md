@@ -1,6 +1,6 @@
 # Privacy Policy for LLM Client
 
-**Effective Date:** [Insert Today's Date]
+**Effective Date:** 9 July 2026
 
 This Privacy Policy explains how the "LLM Client" extension (the "Extension", "we", "us", or "our") handles and protects your information. Our primary goal is to provide a standalone communication tool that strictly prioritizes your privacy.
 
